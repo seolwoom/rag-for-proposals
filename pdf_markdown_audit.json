@@ -1,0 +1,31 @@
+{
+  "files": [
+    {
+      "source": "files\\고려대학교_차세대 포털·학사 정보시스템 구축사업.pdf",
+      "markdown_path": "extracted_markdown\\고려대학교_차세대 포털·학사 정보시스템 구축사업.pdf.md",
+      "page_count": 297,
+      "markdown_table_count": 284
+    },
+    {
+      "source": "files\\기초과학연구원_2025년도 중이온가속기용 극저온시스템 운전 용역.pdf",
+      "markdown_path": "extracted_markdown\\기초과학연구원_2025년도 중이온가속기용 극저온시스템 운전 용역.pdf.md",
+      "page_count": 49,
+      "markdown_table_count": 29
+    },
+    {
+      "source": "files\\서울시립대학교_[사전공개] 학업성취도 다차원 종단분석 통합시스템 1차.pdf",
+      "markdown_path": "extracted_markdown\\서울시립대학교_[사전공개] 학업성취도 다차원 종단분석 통합시스템 1차.pdf.md",
+      "page_count": 149,
+      "markdown_table_count": 144
+    },
+    {
+      "source": "files\\서울특별시_2024년 지도정보 플랫폼 및 전문활용 연계 시스템 고도화 용.pdf",
+      "markdown_path": "extracted_markdown\\서울특별시_2024년 지도정보 플랫폼 및 전문활용 연계 시스템 고도화 용.pdf.md",
+      "page_count": 75,
+      "markdown_table_count": 117
+    }
+  ],
+  "parent_count": 886,
+  "child_count": 2121,
+  "note": "Counts describe detected Markdown tables, not completeness against the original PDF."
+}

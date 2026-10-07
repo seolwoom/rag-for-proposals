@@ -1,0 +1,15 @@
+/files
+/pdf_files
+/temp_files
+/extracted_markdown
+/faiss_index
+.env
+
+*.hwp
+*.zip
+*.pt
+*.pth
+*.model
+*.vocab
+*.pkl
+*.faiss
