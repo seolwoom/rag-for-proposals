@@ -1,8 +1,8 @@
 """Bounded context around the child that caused a parent to be retrieved."""
 from functools import lru_cache
 
-CONTEXT_TOKEN_BUDGET = 8000
-PER_PARENT_TOKEN_BUDGET = 2000
+CONTEXT_TOKEN_BUDGET = 4000
+PER_PARENT_TOKEN_BUDGET = 1000
 OUTPUT_TOKEN_LIMIT = 4096
 LLM_MODEL = 'gpt-5-mini'
 

@@ -1,0 +1,13 @@
+{
+  "evaluator_model": "gemini-3.1-flash-lite",
+  "metrics": [
+    "context_recall",
+    "faithfulness",
+    "factual_correctness"
+  ],
+  "factual_correctness_mode": "f1",
+  "ragas_version": "0.4.3",
+  "mode": "loaded",
+  "context_token_budget": 8000,
+  "sample_count": 3
+}

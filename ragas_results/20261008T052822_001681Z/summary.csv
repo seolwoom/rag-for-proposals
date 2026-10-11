@@ -1,0 +1,4 @@
+﻿,평균,성공 건수,실패 건수
+context_recall,1.0,3.0,0.0
+faithfulness,1.0,2.0,1.0
+factual_correctness,0.94,2.0,1.0
