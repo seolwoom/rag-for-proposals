@@ -1,6 +1,7 @@
 """Lazy local cross-encoder reranking of children before parent expansion."""
 from functools import lru_cache
 import math
+from langsmith import traceable
 
 RERANKER_MODEL = 'BAAI/bge-reranker-v2-m3'
 CANDIDATE_K = 20
@@ -75,6 +76,14 @@ def rerank_children(query, children, model=None, candidate_k=CANDIDATE_K):
     }) for i in order]
 
 
+@traceable(
+    name="rerank_to_parents",
+    run_type="retriever",
+    # Record query/candidates, without uploading the full parent corpus or model.
+    process_inputs=lambda inputs: {
+        key: value for key, value in inputs.items() if key not in ("parents", "model")
+    },
+)
 def rerank_to_parents(query, children, parents, model=None,
                       candidate_k=CANDIDATE_K, parent_k=PARENT_K):
     """Rank parents by their best matching child; attach per-query evidence."""

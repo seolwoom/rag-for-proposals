@@ -1,0 +1,14 @@
+# Python >=3.10; use a fresh virtual environment.
+ragas==0.4.3
+openai>=1.0,<3
+python-dotenv>=1,<2
+langchain-openai>=0.3,<0.4
+langchain-community==0.3.31
+langchain-text-splitters>=0.3,<0.4
+langsmith>=0.3,<1
+faiss-cpu>=1.8,<2
+pymupdf4llm
+rank-bm25
+tiktoken
+langchain-hwp-hwpx-loader==0.1.1
+sentence-transformers>=4,<6

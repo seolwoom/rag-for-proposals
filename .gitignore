@@ -3,6 +3,8 @@
 /temp_files
 /extracted_markdown
 /faiss_index
+/ragas_results
+
 .env
 
 *.hwp

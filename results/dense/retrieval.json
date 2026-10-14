@@ -1,0 +1,74 @@
+{
+  "system": "openai-dense",
+  "dataset_sha256": "8c6f82368c27662de9d77df8520e80d294a8a9644d7d0f870f47bb21b7cb597e",
+  "case_ids": [
+    "q001",
+    "q002",
+    "q003",
+    "q004",
+    "q005"
+  ],
+  "id_field": "corpus_id",
+  "retrieval_k": 5,
+  "rows": [
+    {
+      "case_id": "q001",
+      "mrr": 1.0,
+      "recall@1": 1.0,
+      "ndcg@1": 1.0,
+      "recall@3": 1.0,
+      "ndcg@3": 1.0,
+      "recall@5": 1.0,
+      "ndcg@5": 1.0
+    },
+    {
+      "case_id": "q002",
+      "mrr": 1.0,
+      "recall@1": 1.0,
+      "ndcg@1": 1.0,
+      "recall@3": 1.0,
+      "ndcg@3": 1.0,
+      "recall@5": 1.0,
+      "ndcg@5": 1.0
+    },
+    {
+      "case_id": "q003",
+      "mrr": 1.0,
+      "recall@1": 1.0,
+      "ndcg@1": 1.0,
+      "recall@3": 1.0,
+      "ndcg@3": 1.0,
+      "recall@5": 1.0,
+      "ndcg@5": 1.0
+    },
+    {
+      "case_id": "q004",
+      "mrr": 1.0,
+      "recall@1": 1.0,
+      "ndcg@1": 1.0,
+      "recall@3": 1.0,
+      "ndcg@3": 1.0,
+      "recall@5": 1.0,
+      "ndcg@5": 1.0
+    },
+    {
+      "case_id": "q005",
+      "mrr": 1.0,
+      "recall@1": 1.0,
+      "ndcg@1": 1.0,
+      "recall@3": 1.0,
+      "ndcg@3": 1.0,
+      "recall@5": 1.0,
+      "ndcg@5": 1.0
+    }
+  ],
+  "summary": {
+    "mrr": 1.0,
+    "recall@1": 1.0,
+    "ndcg@1": 1.0,
+    "recall@3": 1.0,
+    "ndcg@3": 1.0,
+    "recall@5": 1.0,
+    "ndcg@5": 1.0
+  }
+}
